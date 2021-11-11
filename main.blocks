@@ -1,0 +1,25 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><block type="pxt-on-start" id="P$gbw,cR3TyU-(^Rr@s[" x="50" y="-435"><statement name="HANDLER"><block type="radio_set_group" id="pbFlGR%z|#Z/U7gX4bs,"><value name="ID"><shadow type="math_number_minmax" id="flF-Hh@VIiBB|l5Fa4g."><mutation min="0" max="255" label="Id" precision="0"/><field name="SLIDER">105</field></shadow></value><next><block type="device_show_leds" id="N1l{mDL]@.ugjyG3Qv_-"><field name="LEDS">`
+        . . # . . 
+        . . . . . 
+        . . . . . 
+        . . . . . 
+        . . . . .
+        `</field><next><block type="servoservosetangle" id="sx6Y$m*%!SBe`^hM@Jgp"><field name="servo">servos.P0</field><value name="degrees"><shadow type="protractorPicker" id="mX3I)kcUK;g@J)/ybfz)"><field name="angle">20</field></shadow></value></block></next></block></next></block></statement></block><block type="radio_on_number_drag" id="rk.,qw2pWokb$+zAp*%3" x="433" y="-409"><value name="HANDLER_DRAG_PARAM_receivedNumber"><shadow type="argument_reporter_number" id=":Z6MC-@B/.qik4Y-*i3N"><field name="VALUE">receivedNumber</field></shadow></value><statement name="HANDLER"><block type="controls_if" id="7kSLcXHLCI`yO(0Ibae4"><value name="IF0"><shadow type="logic_boolean"><field name="BOOL">TRUE</field></shadow><block type="logic_compare" id="aQWI}p.U92)=*;W(K$2B"><field name="OP">EQ</field><value name="A"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="argument_reporter_number" id="7n.hS~pp3$`sIdiR),3{"><field name="VALUE">receivedNumber</field></block></value><value name="B"><shadow type="math_number" id="$JF^NvA+gi3*NxZ:Gj?I"><field name="NUM">1</field></shadow></value></block></value><statement name="DO0"><block type="device_show_leds" id="r64[[4r!E{8I}K7e;tt@"><field name="LEDS">`
+        . . . . . 
+        . . # . . 
+        . . . . . 
+        . . . . . 
+        . . . . .
+        `</field><next><block type="servoservosetangle" id="2hHXR_2#:d80]{U6d=yT"><field name="servo">servos.P0</field><value name="degrees"><shadow type="protractorPicker" id="5C1mPMm}Mt.94M:`eNcE"><field name="angle">20</field></shadow></value></block></next></block></statement><next><block type="controls_if" id="``tkH8.zdw|n(iN^+$+d"><value name="IF0"><shadow type="logic_boolean"><field name="BOOL">TRUE</field></shadow><block type="logic_compare" id="%uu($+/92^z12l1H.tHF"><field name="OP">EQ</field><value name="A"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="argument_reporter_number" id="i)jed`TOIIs9WS4riWDE"><field name="VALUE">receivedNumber</field></block></value><value name="B"><shadow type="math_number" id="Z?5H3X5QURDvt4`+;~og"><field name="NUM">2</field></shadow></value></block></value><statement name="DO0"><block type="device_show_leds" id="Nj%28g#~2QRl9I?U#nS!"><field name="LEDS">`
+        . . . . . 
+        . . . . . 
+        . . # . . 
+        . . . . . 
+        . . . . .
+        `</field><next><block type="servoservosetangle" id="0a6!uOe[Y!y^J+zs@,z7"><field name="servo">servos.P0</field><value name="degrees"><shadow type="protractorPicker" id="+WsGF+!E+KeR^SqGmJd:"><field name="angle">20</field></shadow></value></block></next></block></statement><next><block type="controls_if" id="f_cMouhp/B8^P4*udB7*"><value name="IF0"><shadow type="logic_boolean"><field name="BOOL">TRUE</field></shadow><block type="logic_compare" id="Vu1rBU:H(T,;y`qrMGRF"><field name="OP">EQ</field><value name="A"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="argument_reporter_number" id="n.ehW1hkux6}Elq+yIyK"><field name="VALUE">receivedNumber</field></block></value><value name="B"><shadow type="math_number" id="aj2O!VTo1$|q3L(*Il*j"><field name="NUM">3</field></shadow></value></block></value><statement name="DO0"><block type="device_show_leds" id="+*ok0h/4`yG49@]2:R*f"><field name="LEDS">`
+        . . . . . 
+        . . . . . 
+        . . . . . 
+        . . # . . 
+        . . . . .
+        `</field><next><block type="servoservosetangle" id="7$Wu0BOe:dv)*.zARwmr"><field name="servo">servos.P0</field><value name="degrees"><shadow type="protractorPicker" id="@zL_)%{)[yRkVzd%-9Oe"><field name="angle">160</field></shadow></value></block></next></block></statement></block></next></block></next></block></statement></block></xml>
